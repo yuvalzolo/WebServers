@@ -1,0 +1,29 @@
+{
+    "name": "yuval/assignment",
+    "type": "project",
+    "require": {
+        "php": "8.2.4",
+        "ext-mysqli": "*",
+        "guzzlehttp/guzzle": "^7.6",
+        "slim/slim": "^4.11",
+        "psr/http-message": "^1.1 || ^2.0",
+        "spatie/async": "^1.5",
+        "react/event-loop": "^1.4",
+        "enqueue/simple-client": "^0.10.18",
+        "react/http": "1.2",
+        "slim/psr7": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "models\\": "models/",
+            "views\\": "views/",
+            "controllers\\": "controllers/",
+            "worker\\": "worker/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yuvalzolo"
+        }
+    ]
+}
