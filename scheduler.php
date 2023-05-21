@@ -11,7 +11,7 @@ $httpClient = new Client();
 
 $loop = React\EventLoop\Loop::get();
 
-$loop->addPeriodicTimer(5, function () use ($model, $httpClient) {
+$loop->addPeriodicTimer(60, function () use ($model, $httpClient) {
     $localhostUrl = 'http://localhost:8000';
 
     try {
